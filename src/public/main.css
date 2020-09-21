@@ -1,0 +1,97 @@
+body {
+  background-image: url(img/fondojuego.jpg);
+  
+}
+
+#contentWrap {
+  display: none;
+}
+
+.error {
+  color: red;
+}
+
+.whisper {
+  color: gray;
+  font-style: italic;
+}
+
+/*ELECCIÓN*/
+p { color: rgba(0, 0, 0, 0.959);
+}
+
+a { color: #11181d;
+font-size: 25px; }
+
+a:hover { color: #ffb219; }
+
+a, a:hover { text-decoration: none; }
+
+th, td {
+  border: 2.5px solid black;
+  text-align: center;
+}
+
+.square {
+  font-size: 20px;
+background-color:#ffffff;
+width: 100%;
+padding: 15px;
+border: none;
+}
+
+#bingo-card {
+  margin: 0 auto;
+  text-align: center;
+  width: 2em;
+  height: 2em;
+  border-collapse: collapse;
+  background: #d3d3d3;
+}
+
+.header {
+  background: #357bbd;
+  font-size: 20px;
+}
+#sq12 { background: lightblue; }
+
+#goals, #actions { 
+    color: #ffffff; 
+    text-align: center;
+}
+
+.button {
+  background-color: #ffffff; 
+  border: 2px solid grey;
+  color: #000000;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 2px 2px;
+  margin-top: 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 100px;
+}
+
+.button:hover {
+  background-color: #4286f4; 
+  color: #ffffff;
+}
+
+.square { cursor: pointer; }
+
+button:focus { outline:0; }
+
+#bola{
+  font-size:50px;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(79, 214, 207);
+  border-radius: 100%;
+  text-align: center;
+  color: black;
+    }
+  

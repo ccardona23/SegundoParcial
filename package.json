@@ -1,0 +1,18 @@
+{
+  "name": "Bingo",
+  "version": "1.0.0",
+  "description": "Final project in my second year Intro to Web Development class. It's single player bingo so it's pretty boring tbh but was helpful in learning javascript.",
+  "main": "funciones.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "dev": "nodemon ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
